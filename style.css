@@ -1769,3 +1769,35 @@ footer p {
 
 
 }
+.bottom-photo {
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:80px 20px;
+
+}
+
+
+.bottom-photo img {
+
+    width:min(500px,90%);
+
+    border-radius:30px;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.25);
+
+    transition:.5s;
+
+}
+
+
+.bottom-photo img:hover {
+
+    transform:scale(1.05);
+
+}
